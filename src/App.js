@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import MainPage from './Components/Pages/Main/MainPage';
+import Service from './Components/Pages/MiniPages/Service/Service';
+import Partners from './Components/Pages/MiniPages/Partners/Partners';
+import CompanyInfo from './Components/Pages/MiniPages/CompanyInfo/CompanyInfo';
+import Vacancy from './Components/Pages/MiniPages/Vacancy/Vacancy';
+import Career from './Components/Pages/MiniPages/Сareer/Career';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Routes>
+          <Route path='/' element={<MainPage />} />
+          <Route path='/Service' element={<Service />} />
+          <Route path='/Partners' element={<Partners />} />
+          <Route path='/CompanyInfo' element={<CompanyInfo />} />
+          <Route path='/Vacancy' element={<Vacancy />} />
+          <Route path='/Career' element={<Career />} />
+        </Routes>
+    </>
   );
 }
 
