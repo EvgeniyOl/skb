@@ -20,8 +20,8 @@ const NavBarHeader = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                <Nav className="me-auto">
-                  <Nav.Link href="/Service">Услуги</Nav.Link>
-                  <Nav.Link href="/Partners">Партнеры</Nav.Link>
+                  <Nav.Link href="/#service">Услуги</Nav.Link>
+                  <Nav.Link href="/#partners">Партнеры</Nav.Link>
                   <Nav.Link href="/CompanyInfo">О нас</Nav.Link>
                   <Nav.Link href="/Vacancy">Вакансии</Nav.Link>
                   <Nav.Link href="/Career">Карьера для студентов</Nav.Link>

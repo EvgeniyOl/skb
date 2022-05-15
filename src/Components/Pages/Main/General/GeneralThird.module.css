@@ -1,0 +1,20 @@
+.partners h3{
+   padding-left: 25%;
+   padding-top: 150px;
+}
+.cardbody {
+   text-align: center;
+   vertical-align: text-bottom;
+}
+.cardimg {
+   width: 250px;
+   height: 200px;
+   max-width: 100%;
+   max-height: 100%;
+}
+.row {
+   margin-bottom: 50px;
+}
+.linkPartners {
+   text-align: center;
+}

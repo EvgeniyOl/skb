@@ -14,10 +14,11 @@ import Partners from "../../MiniPages/Partners/Partners";
 import Phishman from "../../MiniPages/Partners/Phishman/Phishman";
 import Positivtechnologies from "../../MiniPages/Partners/PositiveTechologies/PositiveTechnologies";
 import Trukonf from "../../MiniPages/Partners/Trukonf/Trukonf";
-import Service from "../../MiniPages/Service/Service";
+// import Service from "../../MiniPages/Service/Service";
 import Vacancy from "../../MiniPages/Vacancy/Vacancy";
 import Career from "../../MiniPages/Сareer/Career";
 import General from "../General/General";
+import GeneralSecond from "../General/GeneralSecond";
 import styles from './Body.module.css';
 
 const Body = () => {
@@ -25,7 +26,7 @@ const Body = () => {
       <div className={styles.bodystyle}>
          <Routes>
             <Route path="/" element={<General />} />
-            <Route path='/Service' element={<Service />} />
+            <Route path='/#service' element={<GeneralSecond />} />
             <Route path='/Partners' element={<Partners />} />
             <Route path='/CompanyInfo' element={<CompanyInfo />} />
             <Route path='/Vacancy' element={<Vacancy />} />
