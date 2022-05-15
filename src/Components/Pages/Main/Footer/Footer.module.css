@@ -1,0 +1,19 @@
+.footerlogo {
+   display: flex;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+}
+.footerinfo {
+   text-align: center;
+}
+.footerinfo p {
+   margin-bottom: 5px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footerblock {
+   margin-top: auto;
+}

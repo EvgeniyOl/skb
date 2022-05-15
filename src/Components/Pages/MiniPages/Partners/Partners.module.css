@@ -1,0 +1,10 @@
+.cardbody {
+   text-align: center;
+   vertical-align: text-bottom;
+}
+.cardimg {
+   width: 250px;
+   height: 200px;
+   max-width: 100%;
+   max-height: 100%;
+}

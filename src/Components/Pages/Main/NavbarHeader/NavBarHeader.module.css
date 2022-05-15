@@ -1,0 +1,11 @@
+.contacts {
+   display: flex;
+   padding-right: 10px;
+   position: relative;
+}
+.sendLogo {
+  width: 50px;
+}
+.numberSite {
+   padding-right: 10px;
+}
