@@ -3,7 +3,7 @@ import styles from './GeneralFive.module.css';
 
 const GeneralFive = () => {
    return (
-      <div class="container" className={styles.container}>
+      <div class="container" className={styles.container} id='vacancy'>
          <div className="row">
             <div className="col-12">
                <div class="col-12" className={styles.tittle}>

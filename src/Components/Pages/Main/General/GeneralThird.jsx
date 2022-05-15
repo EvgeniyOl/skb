@@ -7,12 +7,12 @@ import Fortinet from './../../MiniPages/Partners/PartnersLogo/kupit-fortinet-for
 
 const GeneralThird = () => {
    return (
-      <div className="container">
+      <div className="container" id='partners'>
          <div class="row" className={styles.row}>
             <div class="col-12" className={styles.partners} >
                <h3>Наши Партнеры</h3>
             </div>
-            <div className="row" id='partners'>
+            <div className="row">
                <div class="col-sm-3 mt-4">
                   <div class='card w-250 h-100'>
                         <img className={styles.cardimg} src={esetlogo} class="card-img-top" alt="..." />

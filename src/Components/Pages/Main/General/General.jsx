@@ -2,6 +2,7 @@ import GeneralFirst from './GeneralFirst';
 import GeneralFive from './GeneralFive';
 import GeneralFour from './GeneralFour';
 import GeneralSecond from './GeneralSecond';
+import GeneralSix from './GeneralSix';
 import GeneralThird from './GeneralThird';
 
 
@@ -13,6 +14,7 @@ const General = () => {
       <GeneralThird />
       <GeneralFour />
       <GeneralFive />
+      <GeneralSix />
       </>
    )
 }

@@ -7,7 +7,7 @@ import ilon from './../../../../Assets/collectiv/ilon.jpeg';
 
 const GeneralFour = () => {
    return (
-      <div className="container">
+      <div className="container" id='companyInfo'>
          <div class="row" className={styles.people}>
             <div className="col-12">
                <h3>Наши Сотрудники</h3>

@@ -22,9 +22,9 @@ const NavBarHeader = () => {
                <Nav className="me-auto">
                   <Nav.Link href="/#service">Услуги</Nav.Link>
                   <Nav.Link href="/#partners">Партнеры</Nav.Link>
-                  <Nav.Link href="/CompanyInfo">О нас</Nav.Link>
-                  <Nav.Link href="/Vacancy">Вакансии</Nav.Link>
-                  <Nav.Link href="/Career">Карьера для студентов</Nav.Link>
+                  <Nav.Link href="/#companyInfo">О нас</Nav.Link>
+                  <Nav.Link href="/#vacancy">Вакансии</Nav.Link>
+                  <Nav.Link href="/#career">Карьера для студентов</Nav.Link>
                </Nav>
             </Navbar.Collapse>
             <div className={styles.contacts}>
