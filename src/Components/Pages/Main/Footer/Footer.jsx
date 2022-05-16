@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import logo from './../images/logo.png';
+import logo from './../images/logo.jpg';
 import card from './../images/card.png';
 import styles from './Footer.module.css';
 

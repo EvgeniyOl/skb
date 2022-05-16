@@ -1,11 +1,24 @@
 .contacts {
-   display: flex;
    padding-right: 10px;
    position: relative;
 }
-.sendLogo {
-  width: 50px;
+.email {
+   display: flex;
 }
-.numberSite {
-   padding-right: 10px;
+.email a {
+   text-decoration: none;
+   text-align: center;
+   font-size: 30px;
+   padding-left: 18%;
+}
+.link {
+   font-size: 20px;
+   color:black;
+}
+.email img,
+.numberSite img {
+   width: 50px;
+}
+.numberSite a {
+   text-decoration: none;
 }
