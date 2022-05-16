@@ -5,30 +5,27 @@ const Cost = () => {
    const {
       register,  //набор св-в
       formState: {
-         errors,
-         isValid, 
+         errors, 
       },
       handleSubmit, //обертка
       reset,  //сброс после отправки
-   } = useForm({
-      mode: 'onBlur' //св-во отображения ошибок
-   });
+   } = useForm();
 
    const onSubmit = (data) => {
       alert(JSON.stringify(data));
       reset();
    }
-   
-   return(
-      <div className="container">
 
-         <div className="row col-12">
+   return(
+      <div className="container-lg">
+
+         <div className="row col-12 text-center">
             <h2>Запрос информации от ООО "СКБ"</h2>
          </div>
 
-         <div class="row" className={styles.formStyle}>
-            <form class='row col-12' onSubmit={handleSubmit(onSubmit)}>
-               <div className="col-6">
+         <div class="row justify-content-evenly" className={styles.formStyle}>
+            <form class='row' onSubmit={handleSubmit(onSubmit)}>
+               <div className="col-lg-6 col-sm-12 justify-content-evenly" >
 
                   <div class="mb-3">
                      <label for="Email" class="form-label">Адрес электронной почты</label>
@@ -104,7 +101,7 @@ const Cost = () => {
                   </div>
 
                </div>
-               <div className="col-6">
+               <div className="col-lg-6 col-sm-12 justify-content-evenly">
                      <div class="form-label col-sm-2 pt-0">Виды услуг</div>
                         <div class="col-sm-10">
                            <div class="form-check">
@@ -177,11 +174,11 @@ const Cost = () => {
                            </div>
                         </div>
                      </div>
-                     <div className="row col-12">
+                     <div class="row col-12" className={styles.warning} >
                         <p>Внимание! Заполнив поля настоящей формы и нажав кнопку "Отправить запрос", Вы на основании ч. 2 ст. 154 Гражданского Кодекса Российской Федерации и ч. 1 ст. 15 Федерального закона "О персональных данных" даёте предварительное согласие на обработку Ваших персональных данных, внесенных в поля настоящей формы, ООО "СКБ" (ИНН 5506207707) в целях продвижения товаров, работ, услуг на рынке путем осуществления прямых контактов с Вами, как потенциальным потребителем, с помощью средств связи.</p>
                      </div>
-                     <div className="row col-12">
-                        <button type="submit" disabled={!isValid} class="btn btn-success">Отправить Запрос</button>
+                     <div className="row col-12 justify-content-center">
+                        <button type="submit" class="btn btn-success">Отправить Запрос</button>
                      </div>
             </form>  
          </div>
