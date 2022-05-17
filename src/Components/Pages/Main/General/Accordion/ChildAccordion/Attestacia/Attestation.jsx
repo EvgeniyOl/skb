@@ -3,12 +3,14 @@ import styles from './Attestation.module.css';
 
 const Attestation = () => {
    return(
-      <div className="container">
-                     <div className="row col-12">
-                        <div className="col-12">
+      <div className="container-fluid">
+                     <div className="row col">
+
+                        <div className="col">
                            <h6>Специалисты ООО "СКБ" имеют высокую квалификацию и большой опыт работы по аттестации объектов информатизации. Телефон: +7 (3812) 53-20-18, доб. 17</h6>
                         </div>
-                        <div className="col-12">
+
+                        <div className="col">
                         <Accordion className={styles.accordion} alwaysOpen>
 
                            <Accordion.Item className={styles.accItem} eventKey="0">

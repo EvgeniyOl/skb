@@ -6,9 +6,6 @@
    color: white;
    justify-content: center;
 }
-.tittle h2 {
-   margin-right: 30px;
-}
 .accHeader button:not(.collapsed) {
    color: #e8c61d;
    background-color: #212529;

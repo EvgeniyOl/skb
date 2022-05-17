@@ -1,9 +1,8 @@
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from './../../Main/images/logo.jpg';
 import phonelogo from './../../../../Assets/free-icon-phone-receiver-5948915.png'
 import telegramLogo from './../../Main/images/telegram.svg';
 import styles from './NavBarHeader.module.css';
-import { Link } from 'react-router-dom';
 
 
 const NavBarHeader = () => {

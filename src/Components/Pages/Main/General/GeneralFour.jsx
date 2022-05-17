@@ -4,52 +4,79 @@ import mns from './../../../../Assets/collectiv/hova.jpeg';
 import bux from './../../../../Assets/collectiv/bux.jpeg';
 import hr from './../../../../Assets/collectiv/hr.jpeg';
 import ilon from './../../../../Assets/collectiv/ilon.jpeg';
+import { Card } from 'react-bootstrap';
 
 const GeneralFour = () => {
    return (
       <div className="container" id='companyInfo'>
          <div class="row" className={styles.people}>
-            <div className="col-12">
+            <div className="col">
                <h3>Наши Сотрудники</h3>
             </div>
-            <div class="row">
-               <div class="col-sm-3 mt-4">
-                  <div class='card'>
-                     <h5 className={styles.cardTittle}>Patron</h5>
-                     <img className={styles.cardImg} src={dir} alt="..." />
-                     <p className={styles.citata}>"Ты пришёл и говоришь: Дон Корлеоне, мне нужна справедливость. Но ты просишь без уважения, ты не предлагаешь дружбу, ты даже не назвал меня крёстным отцом."</p>
-                  </div>
+         </div>  
+
+            <div class="row justify-content-center">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+                  <Card style={{ width: '18rem' }}>
+                     <Card.Img variant="top" src={dir} alt="..." />
+                     <Card.Body>
+                        <Card.Title className='text-center'>Patron</Card.Title>
+                        <Card.Text>
+                        "Ты пришёл и говоришь: Дон Корлеоне, мне нужна справедливость. Но ты просишь без уважения, ты не предлагаешь дружбу, ты даже не назвал меня крёстным отцом."
+                        </Card.Text>
+                     </Card.Body>
+                  </Card>
                </div>
-               <div class="col-sm-3 mt-4">
-                  <div class='card'>
-                     <h5 className={styles.cardTittle}>Начальник отдела</h5>
-                     <img className={styles.cardImg} src={ilon} alt="..." />
-                     <p className={styles.citata}>«С искусственным интеллектом нужно быть очень осторожным. Я все больше склоняюсь к тому, что нам необходим обязательный контроль, возможно международном уровне. Играя с искусственным интеллектом, мы призываем демона»</p>
-                  </div>
+
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+                  <Card style={{ width: '18rem' }}>
+                     <Card.Img variant="top" src={ilon} alt="..." />
+                     <Card.Body>
+                        <Card.Title className='text-center'>Начальник отдела</Card.Title>
+                        <Card.Text>
+                        «С искусственным интеллектом нужно быть очень осторожным. Я все больше склоняюсь к тому, что нам необходим обязательный контроль, возможно международном уровне. Играя с искусственным интеллектом, мы призываем демона»
+                        </Card.Text>
+                     </Card.Body>
+                  </Card>
                </div>
-               <div class="col-sm-3 mt-4">
-                  <div class='card'>
-                     <h5 className={styles.cardTittle}>Главный бухгалтер</h5>
-                     <img className={styles.cardImg} src={bux} alt="..." />
-                     <p className={styles.citata}>Все средства хороши, кроме безналичных.</p>
-                  </div>
+
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+                  <Card style={{ width: '18rem' }}>
+                     <Card.Img variant="top" src={bux} alt="..." />
+                     <Card.Body>
+                        <Card.Title className='text-center'>Главный бухгалтер</Card.Title>
+                        <Card.Text>
+                           Все средства хороши, кроме безналичных.
+                        </Card.Text>
+                     </Card.Body>
+                  </Card>
                </div>
-               <div class="col-sm-3 mt-4">
-                  <div class='card'>
-                     <h5 className={styles.cardTittle}>"Стажер"</h5>
-                     <img className={styles.cardImg} src={mns} alt="..." />
-                     <p className={styles.citata}>Чтобы отыскать баг, ты должен мыслить, как баг!</p>
-                  </div>
+
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+                  <Card style={{ width: '18rem' }}>
+                     <Card.Img variant="top" src={mns} alt="..." />
+                     <Card.Body>
+                        <Card.Title className='text-center'>"Стажер"</Card.Title>
+                        <Card.Text>
+                        Чтобы отыскать баг, ты должен мыслить, как баг!
+                        </Card.Text>
+                     </Card.Body>
+                  </Card>
                </div>
-               <div class="col-sm-3 mt-4">
-                  <div class='card'>
-                     <h5 className={styles.cardTittle}>HR</h5>
-                     <img className={styles.cardImg} src={hr} alt="..." />
-                     <p className={styles.citata}>Не задерживаемся после 18, не ругаемся, помогаем во всем, руководитель — пуська.</p>
-                  </div>
+
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+                  <Card style={{ width: '18rem' }}>
+                     <Card.Img variant="top" src={hr} alt="..." />
+                     <Card.Body>
+                        <Card.Title className='text-center'>HR</Card.Title>
+                        <Card.Text>
+                        Не задерживаемся после 18, не ругаемся, помогаем во всем, руководитель — пуська.
+                        </Card.Text>
+                     </Card.Body>
+                  </Card>
                </div>
+
             </div>
-         </div>
       </div>
    )
 }

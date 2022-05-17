@@ -5,43 +5,47 @@
    background: #212529;
    padding-bottom: 100px;
 }
-.license {
-   padding-top: 50px;
-   margin-bottom: 100px;
+
+
+@media (max-width:860px) {
+   .none860 {
+      display: none;
+   }
 }
-.minicards1 {
-   display: flex;
+@media (max-width:1400px) {
+   .carouselItem p {
+      font-size: calc(12px + (30 - 12) * ((100vw - 320px) / (1400 - 320)));
+   }
+   .carouselItem {
+      max-height: calc(200px + (600 - 200) * ((100vw - 320px) / (1400 - 320)));
+   }
 }
-.minicards2 {
-   display: flex;
+.caption {
+   position: relative;
+   top: 10px;
 }
-.card2,
-.card1 {
+.carouselItem {
+   max-height: 600px;
+}
+.p {
+   color: #AB0D08;
+   font-size: 30px;
+}
+
+
+.card {
    font-size: 16px;
    border: 2px white solid;
-   width: 280px;
+   min-width: 215px;
+   max-width: 200px;
    height: 300px;
-   padding: 10px;
    text-align: center;
-   margin-bottom: 50px;
    position: relative;
 }
-.card2:hover,
-.card1:hover {
+.card:hover {
    background-color: #AB0D08;
 }
-.card2 h6,
-.card1 h6{
-   transition: 0.3s;
-   transform: translateY(25px);
-}
-.card2 p,
-.card1 p {
-   opacity: 0;
-   transform: translateY(-15px);
-}
-.card1::before,
-.card2::before {
+.card::before {
    content: '';
    position: absolute;
    top: 2%;
@@ -50,11 +54,10 @@
    right: 2%;
    border-top: 1px solid whitesmoke;
    border-bottom: 1px solid whitesmoke;
-   transition: 0.2s;
+   transition: 0.3s;
    transform: scaleX(0);
 }
-.card1::after,
-.card2::after {
+.card::after {
    content: '';
    position: absolute;
    top: 2%;
@@ -66,23 +69,26 @@
    transition: 0.3s;
    transform: scaleY(0);
 }
-.card1:hover p,
-.card1:hover h6,
-.card2:hover p,
-.card2:hover h6{
+.cardTittle {
+   transform: translateY(20px);
+}
+.card:hover .cardTittle {
+   font-size: 16px;
+   transition: 0.3s;
+   transform: translateY(5px);
+}
+.cardBody {
+   font-size: 12px;
+   padding: 6px;
+   opacity: 0;
+   transform: translateY(-15px);
+}
+
+.card:hover .cardBody {
    transform: translateY(0);
    opacity: 1;
 }
-.card1:hover::before,
-.card1:hover::after,
-.card2:hover::before,
-.card2:hover::after {
+.card:hover::before,
+.card:hover::after {
    transform: scale(1);
-}
-.carouselItem {
-   height: 600px;
-}
-.carouselItem p {
-   font-size: 30px;
-   color: #f4c802;
 }
