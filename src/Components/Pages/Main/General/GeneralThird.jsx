@@ -48,7 +48,13 @@ const GeneralThird = () => {
             </div>
          </div>
          <Nav.Link href="/Partners" className={styles.linkPartners}>
-            <button type='button' class='btn btn-outline-danger' >Покажите мне всех!</button>
+            <a type='button' className={styles.button} href="/Partners">
+               <span className={styles.button_linetop}></span>
+               <span className={styles.button_lineright}></span>
+               <span className={styles.button_linebottom}></span>
+               <span className={styles.button_lineleft}></span>
+                 Хочу посмотреть всех!
+            </a>
          </Nav.Link>
       </div>
    )

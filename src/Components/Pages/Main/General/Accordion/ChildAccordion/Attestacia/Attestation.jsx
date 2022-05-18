@@ -4,9 +4,9 @@ import styles from './Attestation.module.css';
 const Attestation = () => {
    return(
       <div className="container-fluid">
-                     <div className="row col">
+                     <div className="row col d-flex">
 
-                        <div className="col">
+                        <div className="col-12">
                            <h6>Специалисты ООО "СКБ" имеют высокую квалификацию и большой опыт работы по аттестации объектов информатизации. Телефон: +7 (3812) 53-20-18, доб. 17</h6>
                         </div>
 

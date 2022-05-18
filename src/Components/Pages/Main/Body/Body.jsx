@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import CompanyInfo from "../../MiniPages/CompanyInfo/CompanyInfo";
 import Cost from "../../MiniPages/Cost/Cost";
 import Activsoft from "../../MiniPages/Partners/Activsoft/Activsoft";
 import Cbi from "../../MiniPages/Partners/Cbi/Cbi";
@@ -14,9 +13,7 @@ import Partners from "../../MiniPages/Partners/Partners";
 import Phishman from "../../MiniPages/Partners/Phishman/Phishman";
 import Positivtechnologies from "../../MiniPages/Partners/PositiveTechologies/PositiveTechnologies";
 import Trukonf from "../../MiniPages/Partners/Trukonf/Trukonf";
-// import Service from "../../MiniPages/Service/Service";
 import Vacancy from "../../MiniPages/Vacancy/Vacancy";
-import Career from "../../MiniPages/Сareer/Career";
 import General from "../General/General";
 import GeneralSecond from "../General/GeneralSecond";
 import styles from './Body.module.css';
@@ -28,10 +25,10 @@ const Body = () => {
             <Route path="/" element={<General />} />
             <Route path='/#service' element={<GeneralSecond />} />
             <Route path='/Partners' element={<Partners />} />
-            <Route path='/CompanyInfo' element={<CompanyInfo />} />
+           
             <Route path='/Vacancy' element={<Vacancy />} />
-            <Route path='/Career' element={<Career />} />
             <Route path='/Cost' element={<Cost />} />
+
             <Route path='/ESET' element={<Eset />} />
             <Route path='/Activsoft' element={<Activsoft />} />
             <Route path='/Cbi' element={<Cbi />} />

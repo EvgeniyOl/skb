@@ -20,8 +20,8 @@ const NavBarHeader = () => {
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-               <Nav className="me-auto">
+            <Navbar.Collapse className="justify-content-center" id="responsive-navbar-nav">
+               <Nav className="justify-content-center">
                   <Nav.Link className={styles.link} href="/#service">Услуги</Nav.Link>
                   <Nav.Link className={styles.link} href="/#partners">Партнеры</Nav.Link>
                   <Nav.Link className={styles.link} href="/#companyInfo">О нас</Nav.Link>
@@ -39,8 +39,14 @@ const NavBarHeader = () => {
                         <a href="mailto:info@ooo-skb.ru" target="blank">skb.ru</a>
                      </div>
                   </div>
-                     <Nav.Link href="/Cost">
-                     <button type='button' class='btn btn-outline-danger' >Запросить стоимость</button>
+                     <Nav.Link className={styles.buttonLink} href="/Cost">
+                        <span type='button' className={styles.button} >
+                           <span className={styles.button_linetop}></span>
+                           <span className={styles.button_lineright}></span>
+                           <span className={styles.button_linebottom}></span>
+                           <span className={styles.button_lineleft}></span>
+                           Запросить стоимость
+                        </span>
                      </Nav.Link> 
 
                </Nav>

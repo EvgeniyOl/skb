@@ -14,19 +14,13 @@ import Gasinformservice from './PartnersLogo/gas.png';
 import Trukonf from './PartnersLogo/trueconf-logo.png';
 import Fortinet from './PartnersLogo/kupit-fortinet-fortigate-apparatnye-resheniya-po-dostupnoy-tsene.jpeg';
 
-
-
-
-
-
-
 const Partners = () => {
    return (
       <>
       <div className="container">
          <div class="row">
             <div class="col-sm-3 mt-4">
-               <div class='card w-250 h-100'>
+               <div class='card w-250 h-100 d-flex justify-content-center'> 
                      <img className={styles.cardimg} src={esetlogo} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Eset">ESET</Nav.Link>
@@ -34,7 +28,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={drweb} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/DRWEB">Dr.WEB</Nav.Link>
@@ -42,7 +36,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={phishman} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Phishman">Phishman</Nav.Link>
@@ -50,7 +44,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={PositiveTechologies} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Positivtechnologies">Positive Techologies</Nav.Link>
@@ -58,7 +52,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Code} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Code">"Код Безопасности"</Nav.Link>
@@ -66,7 +60,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Cbi} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Cbi">"ЦБИ-сервис"</Nav.Link>
@@ -74,7 +68,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={ideco} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/IDECO">IDECO</Nav.Link>
@@ -82,7 +76,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Okb} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Okb">"ОКБ САПР"</Nav.Link>
@@ -90,7 +84,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Activsoft} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Activsoft">"Актив-софт"</Nav.Link>
@@ -98,7 +92,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Gasinformservice} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Gasinformservice">"Газинформсервис"</Nav.Link>
@@ -106,7 +100,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Trukonf} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Trukonf">"Труконф"</Nav.Link>
@@ -114,7 +108,7 @@ const Partners = () => {
                </div>
             </div>
             <div class="col-sm-3 mt-4">
-               <div class="card w-250 h-100">
+               <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Fortinet} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
                         <Nav.Link href="/Fortinet">Fortinet</Nav.Link>

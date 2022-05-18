@@ -1,18 +1,9 @@
-.main {
-   max-width: 80%;
-   margin: 0 auto;
-   justify-content: center;
-   text-align: center;
-}
-.header {
-   text-align: left;
-}
 .body {
-   display: flex;
-}
-.body img {
-   width: 300px;
+   width: 250px;
    height: 200px;
    border: 2px solid black;
    margin: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
