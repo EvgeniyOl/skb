@@ -1,4 +1,4 @@
-# [Сайт для Омской компании ООО 'СКБ'](https://skb-gwgn4fmjt-evgeniyol.vercel.app/)
+# [Тренировочный сайт](https://skb-gwgn4fmjt-evgeniyol.vercel.app/)
 
 ## Основные направления деятельности компании:
 Информационные системы<br>

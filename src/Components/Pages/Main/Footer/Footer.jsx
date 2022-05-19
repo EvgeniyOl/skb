@@ -1,4 +1,4 @@
-import logo from './../images/logo.jpg';
+import logo from './../../../../Assets/logo.png';
 import card from './../images/card.png';
 import styles from './Footer.module.css';
 
