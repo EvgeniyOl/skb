@@ -24,12 +24,28 @@
    position: relative;
    top: 10px;
 }
+.caption a{
+   text-decoration: none;
+   color: #2aae16;
+   font-size: 25px;
+}
+.caption a:hover{
+   color: #2aae16;
+   text-shadow: 0 0 10px #4b16ae, 0 0 30px #ae4616, 0 0 60px #ff0000;
+}
 .carouselItem {
    max-height: 600px;
+}
+.carouselItem img{
+   opacity: 0.4;
 }
 .p {
    color: #AB0D08;
    font-size: 30px;
+}
+.cardTittle {
+   margin-left: 5px;
+   margin-right: 5px;
 }
 
 

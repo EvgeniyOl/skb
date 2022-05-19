@@ -5,11 +5,13 @@ import styles from './GeneralSecond.module.css';
 const GeneralSecond = () => {
    return (
       <div class="container" className={styles.container}>
-         <div className="row justify-content-center text-light">
-            <h2 class='col-lg-6 col-sm-12 text-center' id='service'>Наши услуги</h2>
-            <p class='col-lg-6 col-sm-12 text-center'>Деятельность осуществляется на основании <br /> лицензий ФСБ и ФСТЭК России</p>
+            <div className="container">
+               <div className="row justify-content-center text-light">
+                  <h2 class='col-lg-6 col-sm-12 text-center' id='service'>Наши услуги</h2>
+                  <p class='col-lg-6 col-sm-12 text-center'>Деятельность осуществляется на основании <br /> лицензий ФСБ и ФСТЭК России</p>
+               </div>
+            </div>
 
-         </div>
          <Accordion className={styles.accordion} alwaysOpen>
             <Accordion.Item className={styles.accItem} eventKey="0">
                <Accordion.Header className={styles.accHeader} eventKey="0"><span>01</span> Удостоверяющий центр</Accordion.Header>

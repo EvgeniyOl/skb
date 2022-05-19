@@ -15,8 +15,8 @@ const GeneralFour = () => {
             </div>
          </div>  
 
-            <div class="row justify-content-center">
-               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+            <div class="row d-flex justify-content-center">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
                      <Card.Img variant="top" src={dir} alt="..." />
                      <Card.Body>
@@ -28,7 +28,7 @@ const GeneralFour = () => {
                   </Card>
                </div>
 
-               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
                      <Card.Img variant="top" src={ilon} alt="..." />
                      <Card.Body>
@@ -40,7 +40,7 @@ const GeneralFour = () => {
                   </Card>
                </div>
 
-               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
                      <Card.Img variant="top" src={bux} alt="..." />
                      <Card.Body>
@@ -52,7 +52,7 @@ const GeneralFour = () => {
                   </Card>
                </div>
 
-               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
                      <Card.Img variant="top" src={mns} alt="..." />
                      <Card.Body>
@@ -64,7 +64,7 @@ const GeneralFour = () => {
                   </Card>
                </div>
 
-               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-4 d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
                      <Card.Img variant="top" src={hr} alt="..." />
                      <Card.Body>

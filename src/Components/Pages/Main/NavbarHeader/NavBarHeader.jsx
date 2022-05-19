@@ -8,7 +8,7 @@ import styles from './NavBarHeader.module.css';
 const NavBarHeader = () => {
    return (
       <Navbar collapseOnSelect expand="xl" bg="white">
-         <Container>
+         <Container className='justify-content-center'>
             <Navbar.Brand href="/">
                <img
                src={logo}

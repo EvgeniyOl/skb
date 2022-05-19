@@ -13,19 +13,22 @@ const GeneralFirst = () => {
                <Carousel.Item className={styles.carouselItem}>
                   <img className="d-block w-100" src={slide1} alt="First slide"/>
                   <Carousel.Caption className={styles.caption}>
-                     <p className={styles.p}>Мы оказываем профессиоальые услуги в области комплексной информационной безпасности</p>
+                     <p className={styles.p}>Что такое MITM-Атака<br />(атака 'человек посередине')</p>
+                     <a href="/News1">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item className={styles.carouselItem}>
                   <img className="d-block w-100" src={slide3} alt="Third slide"/>
                   <Carousel.Caption className={styles.caption}>
-                     <p className={styles.p}>Мы круче всех!!!</p>
+                     <p className={styles.p}>Все большую популярность на хакерских форумах приобретает новое вредоносное ПО для похищения информации BlackGuard.</p>
+                     <a href="/News2">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item className={styles.carouselItem}>
                   <img className="d-block w-100" src={slide4} alt="Four slide"/>
                   <Carousel.Caption className={styles.caption}>
-                     <p className={styles.p}>Мы топчик!!!</p>
+                     <p className={styles.p}>Новое вымогательское ПО, написанное на языке программирования Python, атакует среды, где используется Jupyter Notebook.</p>
+                     <a href="/News3">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
             </Carousel>

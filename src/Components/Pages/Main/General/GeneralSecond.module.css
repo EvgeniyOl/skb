@@ -15,3 +15,6 @@
    color: red;
    margin-right: 20px;
 }
+.accHeader button:not(.collapsed)::after{
+   background-image: url('./../../../../Assets/plus-free-icon-font.svg');
+}

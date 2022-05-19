@@ -1,5 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Cost from "../../MiniPages/Cost/Cost";
+import News1 from "../../MiniPages/News/News1";
+import News2 from "../../MiniPages/News/News2";
+import News3 from "../../MiniPages/News/News3";
 import Activsoft from "../../MiniPages/Partners/Activsoft/Activsoft";
 import Cbi from "../../MiniPages/Partners/Cbi/Cbi";
 import Code from "../../MiniPages/Partners/Code/Code";
@@ -41,6 +44,10 @@ const Body = () => {
             <Route path='/Phishman' element={<Phishman />} />
             <Route path='/Positivtechnologies' element={<Positivtechnologies />} />
             <Route path='/Trukonf' element={<Trukonf />} />
+
+            <Route path='/News1' element={<News1 />} />
+            <Route path='/News2' element={<News2 />} />
+            <Route path='/News3' element={<News3 />} />
          </Routes>
       </div>
    )
