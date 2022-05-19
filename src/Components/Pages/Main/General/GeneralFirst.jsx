@@ -14,21 +14,21 @@ const GeneralFirst = () => {
                   <img className="d-block w-100" src={slide1} alt="First slide"/>
                   <Carousel.Caption className={styles.caption}>
                      <p className={styles.p}>Что такое MITM-Атака<br />(атака 'человек посередине')</p>
-                     <a href="/HomePage/News1">Читать</a>
+                     <a href="/News1">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item className={styles.carouselItem}>
                   <img className="d-block w-100" src={slide3} alt="Third slide"/>
                   <Carousel.Caption className={styles.caption}>
                      <p className={styles.p}>Все большую популярность на хакерских форумах приобретает новое вредоносное ПО для похищения информации BlackGuard.</p>
-                     <a href="/HomePage/News2">Читать</a>
+                     <a href="/News2">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item className={styles.carouselItem}>
                   <img className="d-block w-100" src={slide4} alt="Four slide"/>
                   <Carousel.Caption className={styles.caption}>
                      <p className={styles.p}>Новое вымогательское ПО, написанное на языке программирования Python, атакует среды, где используется Jupyter Notebook.</p>
-                     <a href="/HomePage/News3">Читать</a>
+                     <a href="/News3">Читать</a>
                   </Carousel.Caption>
                </Carousel.Item>
             </Carousel>

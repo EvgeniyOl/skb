@@ -17,7 +17,7 @@ const GeneralThird = () => {
                   <div class='card w-250 h-100'>
                         <img className={styles.cardimg} src={esetlogo} class="card-img-top" alt="..." />
                         <div class={styles.cardbody}>
-                           <Nav.Link href="/HomePage/Partners/Eset">ESET</Nav.Link>
+                           <Nav.Link href="/Partners/Eset">ESET</Nav.Link>
                         </div>
                   </div>
                </div>
@@ -25,7 +25,7 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={phishman} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/HomePage/Partners/Phishman">Phishman</Nav.Link>
+                        <Nav.Link href="/Partners/Phishman">Phishman</Nav.Link>
                      </div>
                </div>
             </div>
@@ -33,7 +33,7 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={PositiveTechologies} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/HomePage/Partners/Positivtechnologies">Positive Techologies</Nav.Link>
+                        <Nav.Link href="/Partners/Positivtechnologies">Positive Techologies</Nav.Link>
                      </div>
                </div>
             </div>
@@ -41,14 +41,14 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={Fortinet} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/HomePage/Partners/Fortinet">Fortinet</Nav.Link>
+                        <Nav.Link href="/Partners/Fortinet">Fortinet</Nav.Link>
                      </div>
                </div>
             </div>
             </div>
          </div>
-         <Nav.Link href="/HomePage/Partners" className={styles.linkPartners}>
-            <a type='button' className={styles.button} href="/HomePage/Partners">
+         <Nav.Link href="/Partners" className={styles.linkPartners}>
+            <a type='button' className={styles.button} href="/Partners">
                <span className={styles.button_linetop}></span>
                <span className={styles.button_lineright}></span>
                <span className={styles.button_linebottom}></span>

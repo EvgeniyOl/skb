@@ -24,28 +24,28 @@ const Body = () => {
    return(
       <div className={styles.bodystyle}>
          <Routes>
-            <Route exact path="/HomePage" element={<General />} />
+            <Route exact path="/" element={<General />} />
 
-            <Route path='HomePage/Partners' element={<Partners />} />
-            <Route path='HomePage/Vacancy' element={<Vacancy />} />
-            <Route path='HomePage/Cost' element={<Cost />} />
+            <Route path='/Partners' element={<Partners />} />
+            <Route path='/Vacancy' element={<Vacancy />} />
+            <Route path='/Cost' element={<Cost />} />
 
-            <Route path='/HomePage/Partners/ESET' element={<Eset />} />
-            <Route path='/HomePage/Partners/Activsoft' element={<Activsoft />} />
-            <Route path='/HomePage/Partners/Cbi' element={<Cbi />} />
-            <Route path='/HomePage/Partners/Code' element={<Code />} />
-            <Route path='/HomePage/Partners/DrWEB' element={<DrWEB />} />
-            <Route path='/HomePage/Partners/Fortinet' element={<Fortinet />} />
-            <Route path='/HomePage/Partners/Gasinformservice' element={<Gasinformservice />} />
-            <Route path='/HomePage/Partners/Ideco' element={<Ideco />} />
-            <Route path='/HomePage/Partners/Okb' element={<Okb />} />
-            <Route path='/HomePage/Partners/Phishman' element={<Phishman />} />
-            <Route path='/HomePage/Partners/Positivtechnologies' element={<Positivtechnologies />} />
-            <Route path='/HomePage/Partners/Trukonf' element={<Trukonf />} />
+            <Route path='/Partners/ESET' element={<Eset />} />
+            <Route path='/Partners/Activsoft' element={<Activsoft />} />
+            <Route path='/Partners/Cbi' element={<Cbi />} />
+            <Route path='/Partners/Code' element={<Code />} />
+            <Route path='/Partners/DrWEB' element={<DrWEB />} />
+            <Route path='/Partners/Fortinet' element={<Fortinet />} />
+            <Route path='/Partners/Gasinformservice' element={<Gasinformservice />} />
+            <Route path='/Partners/Ideco' element={<Ideco />} />
+            <Route path='/Partners/Okb' element={<Okb />} />
+            <Route path='/Partners/Phishman' element={<Phishman />} />
+            <Route path='/Partners/Positivtechnologies' element={<Positivtechnologies />} />
+            <Route path='/Partners/Trukonf' element={<Trukonf />} />
 
-            <Route path='HomePage/News1' element={<News1 />} />
-            <Route path='HomePage/News2' element={<News2 />} />
-            <Route path='HomePage/News3' element={<News3 />} />
+            <Route path='/News1' element={<News1 />} />
+            <Route path='/News2' element={<News2 />} />
+            <Route path='/News3' element={<News3 />} />
          </Routes>
       </div>
    )

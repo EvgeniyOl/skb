@@ -12,7 +12,7 @@ const NavBarHeader = () => {
       <div className={styles.headerFixed}>
             <Navbar collapseOnSelect expand="xl">
          <Container className='justify-content-center'>
-            <Navbar.Brand href="/HomePage">
+            <Navbar.Brand href="/">
                <img
                src={logo}
                width="250"
@@ -26,11 +26,11 @@ const NavBarHeader = () => {
             <Navbar.Collapse className="justify-content-center">
                <Nav className="justify-content-center align-items-center">
                   
-                  <Nav.Link href='#'><Links className={styles.link} to="HomePage#service">Услуги</Links></Nav.Link>
-                  <Nav.Link href='#'><Links className={styles.link} to="HomePage#partners">Партнеры</Links></Nav.Link>
-                  <Nav.Link href='#'><Links className={styles.link} to="HomePage#companyInfo">О нас</Links></Nav.Link>
-                  <Nav.Link href='#'><Links className={styles.link} to="HomePage#vacancy">Вакансии</Links></Nav.Link>
-                  <Nav.Link href='#'><Links className={styles.link} to="HomePage#career">Карьера для студентов</Links></Nav.Link>
+                  <Nav.Link href='#'><Links className={styles.link} to="/#service">Услуги</Links></Nav.Link>
+                  <Nav.Link href='#'><Links className={styles.link} to="/#partners">Партнеры</Links></Nav.Link>
+                  <Nav.Link href='#'><Links className={styles.link} to="/#companyInfo">О нас</Links></Nav.Link>
+                  <Nav.Link href='#'><Links className={styles.link} to="/#vacancy">Вакансии</Links></Nav.Link>
+                  <Nav.Link href='#'><Links className={styles.link} to="/#career">Карьера для студентов</Links></Nav.Link>
 
                   <div>
                      <div className={styles.numberSite}>
@@ -43,7 +43,7 @@ const NavBarHeader = () => {
                         <a href="mailto:info@ooo-skb.ru" target="blank">skb.ru</a>
                      </div>
                   </div>
-                     <Nav.Link className={styles.buttonLink} href="/HomePage/Cost">
+                     <Nav.Link className={styles.buttonLink} href="/Cost">
                         <span type='button' className={styles.button} >
                            <span className={styles.button_linetop}></span>
                            <span className={styles.button_lineright}></span>

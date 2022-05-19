@@ -32,7 +32,7 @@ const GeneralSix = () => {
                <p>большое разнообразие выполняемых задач<br /> опыт решения задач на действующих объектах<br /> возможность развития и самореализации<br /> возможность дальнейшего трудоустройства</p>
             </div>
             <div class="col-lg-6 col-sm-12">
-               <Nav.Link href='/HomePage/Vacancy'>
+               <Nav.Link href='/Vacancy'>
                   <div className={styles.neonicondiv}>
                         <span className={styles.neonicon}>Отправить<br /> заявку</span>
                   </div>

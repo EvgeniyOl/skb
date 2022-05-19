@@ -23,6 +23,7 @@
 }
 .link:hover {
    text-shadow: 0 0 10px rgb(214, 9, 9), 0 0 30px rgb(214, 9, 9);
+   color: #c51818;
 }
 .email img,
 .numberSite img {
