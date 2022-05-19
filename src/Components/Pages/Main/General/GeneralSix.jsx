@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 
 const GeneralSix = () => {
    return(
-      <div class="container-lg" id='career'>
+      <div class="container-lg" className={styles.container} id='career'>
          <div className="row col">
             <div className="col justify-content-center">
                <h2 className='text-center'>Начало карьеры для<br />студентов следующих<br />специальностей</h2>
@@ -32,7 +32,7 @@ const GeneralSix = () => {
                <p>большое разнообразие выполняемых задач<br /> опыт решения задач на действующих объектах<br /> возможность развития и самореализации<br /> возможность дальнейшего трудоустройства</p>
             </div>
             <div class="col-lg-6 col-sm-12">
-               <Nav.Link href='/Vacancy'>
+               <Nav.Link href='/HomePage/Vacancy'>
                   <div className={styles.neonicondiv}>
                         <span className={styles.neonicon}>Отправить<br /> заявку</span>
                   </div>

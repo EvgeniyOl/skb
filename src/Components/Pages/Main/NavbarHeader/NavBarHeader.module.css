@@ -1,3 +1,9 @@
+.headerFixed {
+   position: sticky;
+   top: 0;
+   z-index: 5;
+   background: #ffffff;
+}
 .contacts {
    padding-right: 10px;
    position: relative;
@@ -13,6 +19,7 @@
 .link {
    font-size: 20px;
    color:black;
+   text-decoration: none;
 }
 .link:hover {
    text-shadow: 0 0 10px rgb(214, 9, 9), 0 0 30px rgb(214, 9, 9);

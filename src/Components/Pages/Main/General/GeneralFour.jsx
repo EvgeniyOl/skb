@@ -8,7 +8,7 @@ import { Card } from 'react-bootstrap';
 
 const GeneralFour = () => {
    return (
-      <div className="container" id='companyInfo'>
+      <div class="container" className={styles.container} id='companyInfo'>
          <div class="row" className={styles.people}>
             <div className="col">
                <h3>Наши Сотрудники</h3>

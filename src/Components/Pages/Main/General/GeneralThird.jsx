@@ -7,7 +7,7 @@ import Fortinet from './../../MiniPages/Partners/PartnersLogo/kupit-fortinet-for
 
 const GeneralThird = () => {
    return (
-      <div className="container" id='partners'>
+      <div class="container" id='partners' className={styles.containerHead} >
          <div class="row" className={styles.row}>
             <div class="col-12" className={styles.partners} >
                <h3>Наши Партнеры</h3>
@@ -17,7 +17,7 @@ const GeneralThird = () => {
                   <div class='card w-250 h-100'>
                         <img className={styles.cardimg} src={esetlogo} class="card-img-top" alt="..." />
                         <div class={styles.cardbody}>
-                           <Nav.Link href="/Eset">ESET</Nav.Link>
+                           <Nav.Link href="/HomePage/Partners/Eset">ESET</Nav.Link>
                         </div>
                   </div>
                </div>
@@ -25,7 +25,7 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={phishman} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Phishman">Phishman</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Phishman">Phishman</Nav.Link>
                      </div>
                </div>
             </div>
@@ -33,7 +33,7 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={PositiveTechologies} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Positivtechnologies">Positive Techologies</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Positivtechnologies">Positive Techologies</Nav.Link>
                      </div>
                </div>
             </div>
@@ -41,14 +41,14 @@ const GeneralThird = () => {
                <div class="card w-250 h-100">
                      <img className={styles.cardimg} src={Fortinet} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Fortinet">Fortinet</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Fortinet">Fortinet</Nav.Link>
                      </div>
                </div>
             </div>
             </div>
          </div>
-         <Nav.Link href="/Partners" className={styles.linkPartners}>
-            <a type='button' className={styles.button} href="/Partners">
+         <Nav.Link href="/HomePage/Partners" className={styles.linkPartners}>
+            <a type='button' className={styles.button} href="/HomePage/Partners">
                <span className={styles.button_linetop}></span>
                <span className={styles.button_lineright}></span>
                <span className={styles.button_linebottom}></span>

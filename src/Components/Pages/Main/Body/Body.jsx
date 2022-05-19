@@ -18,36 +18,34 @@ import Positivtechnologies from "../../MiniPages/Partners/PositiveTechologies/Po
 import Trukonf from "../../MiniPages/Partners/Trukonf/Trukonf";
 import Vacancy from "../../MiniPages/Vacancy/Vacancy";
 import General from "../General/General";
-import GeneralSecond from "../General/GeneralSecond";
 import styles from './Body.module.css';
 
 const Body = () => {
    return(
       <div className={styles.bodystyle}>
          <Routes>
-            <Route path="/" element={<General />} />
-            <Route path='/#service' element={<GeneralSecond />} />
-            <Route path='/Partners' element={<Partners />} />
-           
-            <Route path='/Vacancy' element={<Vacancy />} />
-            <Route path='/Cost' element={<Cost />} />
+            <Route exact path="/HomePage" element={<General />} />
 
-            <Route path='/ESET' element={<Eset />} />
-            <Route path='/Activsoft' element={<Activsoft />} />
-            <Route path='/Cbi' element={<Cbi />} />
-            <Route path='/Code' element={<Code />} />
-            <Route path='/DrWEB' element={<DrWEB />} />
-            <Route path='/Fortinet' element={<Fortinet />} />
-            <Route path='/Gasinformservice' element={<Gasinformservice />} />
-            <Route path='/Ideco' element={<Ideco />} />
-            <Route path='/Okb' element={<Okb />} />
-            <Route path='/Phishman' element={<Phishman />} />
-            <Route path='/Positivtechnologies' element={<Positivtechnologies />} />
-            <Route path='/Trukonf' element={<Trukonf />} />
+            <Route path='HomePage/Partners' element={<Partners />} />
+            <Route path='HomePage/Vacancy' element={<Vacancy />} />
+            <Route path='HomePage/Cost' element={<Cost />} />
 
-            <Route path='/News1' element={<News1 />} />
-            <Route path='/News2' element={<News2 />} />
-            <Route path='/News3' element={<News3 />} />
+            <Route path='/HomePage/Partners/ESET' element={<Eset />} />
+            <Route path='/HomePage/Partners/Activsoft' element={<Activsoft />} />
+            <Route path='/HomePage/Partners/Cbi' element={<Cbi />} />
+            <Route path='/HomePage/Partners/Code' element={<Code />} />
+            <Route path='/HomePage/Partners/DrWEB' element={<DrWEB />} />
+            <Route path='/HomePage/Partners/Fortinet' element={<Fortinet />} />
+            <Route path='/HomePage/Partners/Gasinformservice' element={<Gasinformservice />} />
+            <Route path='/HomePage/Partners/Ideco' element={<Ideco />} />
+            <Route path='/HomePage/Partners/Okb' element={<Okb />} />
+            <Route path='/HomePage/Partners/Phishman' element={<Phishman />} />
+            <Route path='/HomePage/Partners/Positivtechnologies' element={<Positivtechnologies />} />
+            <Route path='/HomePage/Partners/Trukonf' element={<Trukonf />} />
+
+            <Route path='HomePage/News1' element={<News1 />} />
+            <Route path='HomePage/News2' element={<News2 />} />
+            <Route path='HomePage/News3' element={<News3 />} />
          </Routes>
       </div>
    )

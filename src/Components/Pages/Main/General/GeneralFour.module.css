@@ -1,4 +1,7 @@
+.container {
+   padding-top: 150px;
+}
 .people h3{
    padding-left: 25%;
-   padding-top: 80px;
+   padding-top: 10px;
 }

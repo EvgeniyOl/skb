@@ -23,7 +23,7 @@ const Partners = () => {
                <div class='card w-250 h-100 d-flex justify-content-center'> 
                      <img className={styles.cardimg} src={esetlogo} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Eset">ESET</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Eset">ESET</Nav.Link>
                      </div>
                </div>
             </div>
@@ -31,7 +31,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={drweb} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/DRWEB">Dr.WEB</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/DRWEB">Dr.WEB</Nav.Link>
                      </div>
                </div>
             </div>
@@ -39,7 +39,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={phishman} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Phishman">Phishman</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Phishman">Phishman</Nav.Link>
                      </div>
                </div>
             </div>
@@ -47,7 +47,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={PositiveTechologies} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Positivtechnologies">Positive Techologies</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Positivtechnologies">Positive Techologies</Nav.Link>
                      </div>
                </div>
             </div>
@@ -55,7 +55,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Code} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Code">"Код Безопасности"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Code">"Код Безопасности"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -63,7 +63,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Cbi} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Cbi">"ЦБИ-сервис"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Cbi">"ЦБИ-сервис"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -71,7 +71,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={ideco} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/IDECO">IDECO</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/IDECO">IDECO</Nav.Link>
                      </div>
                </div>
             </div>
@@ -79,7 +79,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Okb} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Okb">"ОКБ САПР"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Okb">"ОКБ САПР"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -87,7 +87,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Activsoft} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Activsoft">"Актив-софт"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Activsoft">"Актив-софт"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -95,7 +95,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Gasinformservice} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Gasinformservice">"Газинформсервис"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Gasinformservice">"Газинформсервис"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -103,7 +103,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Trukonf} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Trukonf">"Труконф"</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Trukonf">"Труконф"</Nav.Link>
                      </div>
                </div>
             </div>
@@ -111,7 +111,7 @@ const Partners = () => {
                <div class="card w-250 h-100 d-flex justify-content-center">
                      <img className={styles.cardimg} src={Fortinet} class="card-img-top" alt="..." />
                      <div class={styles.cardbody}>
-                        <Nav.Link href="/Fortinet">Fortinet</Nav.Link>
+                        <Nav.Link href="/HomePage/Partners/Fortinet">Fortinet</Nav.Link>
                      </div>
                </div>
             </div>
